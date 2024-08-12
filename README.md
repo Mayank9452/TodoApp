@@ -1,8 +1,13 @@
-# React + Vite
+# Live link
+Go Live - ''
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Problem statement
+Create a Todolist app.
 
-Currently, two official plugins are available:
+# Features
+Fetch and show todo items from the api - https://jsonplaceholder.typicode.com/todos
+Add a todo item, make a POST call to the above url (from where you are fetching) and save the item in react state. (This will be a dummy request, you won’t be able to add items to the server. But the request is valid and will send you some data. Read the guide).
+Update the item, make a PUT call to the above url. (Again this is a dummy call).
+Delete an item, make a DELETE call to the above url. (Again this is a dummy call).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
