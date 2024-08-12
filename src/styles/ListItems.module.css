@@ -1,0 +1,52 @@
+.listItemHeading{
+    margin: 1rem 0;
+}
+.listMainContainer{
+    width: 80%;
+    margin: auto;
+}
+.listMainContainer li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid grey; */
+    border-radius: 8px;
+    background-color: rgb(225 218 218);
+    padding: 1rem;
+    align-items: center;
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+.listMainContainer li:hover {
+    transform: scale(1.1); /* Scales the item to 120% of its original size */
+    background-color: #e0e0e0; /* Optional: Change background color on hover */
+}
+.titleContent{
+    width: 60%;
+}
+.listButtons{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.listButtons button{
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    border: none;
+}
+.listButtons .completed{
+    background-color: rgb(111, 241, 111);
+
+}
+.listButtons .notComplete{
+    background-color: yellow;
+}
+.editButton{
+    background-color: paleturquoise;
+}
+.deleteButton{
+    background-color: orangered;
+}
